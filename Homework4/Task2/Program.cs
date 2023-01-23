@@ -3,7 +3,7 @@
 Clear();
 
 Write("Введите число: ");
-int number = int.Parse(ReadLine());
+int number = int.Parse(ReadLine()!);
 
 int answer = SumDigit(number);
 
