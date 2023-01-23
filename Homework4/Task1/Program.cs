@@ -3,9 +3,9 @@
 Clear();
 
 Write("Введите число: ");
-int number = int.Parse(ReadLine());
+int number = int.Parse(ReadLine()!);
 Write("Введите степень: ");
-int degree = int.Parse(ReadLine());
+int degree = int.Parse(ReadLine()!);
 
 int answer = PovNum(number, degree);
 
